@@ -4,7 +4,7 @@ import useMusicPlayer from "../hooks/useMusicPlayer";
 function Header() {
   const { currentTrackName } = useMusicPlayer();
   return (
-    <div className="header">
+    <div className="header ">
       <span>{currentTrackName}</span>
     </div>
   );
